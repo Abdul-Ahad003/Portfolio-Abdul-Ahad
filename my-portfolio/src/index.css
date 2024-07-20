@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Mochiy+Pop+One&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+12&family=Jacquard+24&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&family=Cedarville+Cursive&family=Mochiy+Pop+One&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Concert+One&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-color: black;
+}
+::-webkit-scrollbar{
+    width: 8px;
+    background-color: rgb(26, 26, 28);
+}
+::-webkit-scrollbar-thumb{
+    background-color: #0ef;
+    border-radius: 100px;
+}
+
+.navigate{
+    animation: topslide 1.1s ease-in-out  forwards ;
+    animation-delay: 0.4s
+}
+.logo{
+    animation: leftslide 1s ease-in-out forwards ;
+    animation-delay: 0.4s
+}
+.tx{
+    animation: leftslide 1s ease-in-out forwards ;
+    animation-delay: 0.4s
+}
+.photo{
+    animation: bounce 1s ease-in-out 0.4s infinite alternate, rightslide 1s ease-in-out 0.4s backwards ;
+    
+}
+.aboutimg{
+    animation: bounce 1s ease-in-out 0.4s infinite alternate, leftslide 1s ease-in-out 0.4s forwards ;
+}
+
+.tskill{
+    animation: leftslide 1s ease-in-out forwards ;
+    animation-delay: 0.4s
+}
+.bskill{
+    animation: rightslide 1s ease-in-out forwards ;
+    animation-delay: 0.4s
+}
+.resume{
+    animation: bottomslide 1.1s ease-in-out  forwards ;
+    animation-delay: 0.4s
+}
+.heading{
+    animation: topslide 1.1s ease-in-out  forwards ;
+    animation-delay: 0.4s
+}
+.skillcard:hover{
+    animation: flip-img  2s ease-in 0.7s infinite alternate  ;
+    cursor: pointer;
+}
+.ico:hover{
+    transform: translate(1.1);
+}
+.form{
+    animation: rightslide 1s ease-in-out forwards ;
+    animation-delay: 0.4s
+}
+.cont-info{
+    animation: leftslide 1s ease-in-out forwards ;
+    animation-delay: 0.4s
+}
+.home-icons:hover{
+    transform: scale(1.2);
+}
+.about{
+    animation: rightslide 1s ease-in-out forwards ;
+    animation-delay: 0.4s
+}
+.project{
+    animation: leftslide 1s ease-in-out forwards ;
+    animation-delay: 0.4s
+}
+.project-img{
+    animation: rightslide 1s ease-in-out forwards ;
+    animation-delay: 0.4s
+}
+
+@keyframes flip-img {
+    from{
+        transform: rotateY(0deg);
+        
+    }
+    to{
+        transform: rotateY(360deg);
+    }
+}
+
+@keyframes bounce {
+    from{
+        bottom: 0;
+    }
+    to{
+        bottom: 10%;
+    }
+}
+@keyframes topslide {
+    0%{
+        transform: translateY(-40px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes bottomslide {
+    0%{
+        transform: translateY(30px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes leftslide {
+    0%{
+        transform: translateX(-120px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes rightslide {
+    0%{
+        transform: translateX(120px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .skillcard img{
+        width: 60px;
+    }
+    .skillcard-contianer{
+        width: 100px;
+        height: 100px;
+    }
+    .skillcard .figma-logo{
+        width: 36px;
+    }
+  }
