@@ -8,8 +8,8 @@ const About = () => {
 
 
     return (
-        <section name='about' className=' min-h-screen md:px-32 md:py-[52px] px-5 py-4 '>
-            <div ref={ref} className='flex md:flex-row flex-col md:gap-12  gap-8 justify-center items-center'>{inView && <div className=' md:h-[265px] h-[250px] md:block flex justify-center relative md:w-1/2 w-full z-[-10]'>
+        <section name='about' className=' min-h-screen md:px-32 md:py-[52px] px-5 py-4  '>
+            <div ref={ref} className='flex md:flex-row flex-col md:gap-12  gap-8 justify-center items-center'>{inView && <div className=' md:h-[265px] h-[27vh] md:block flex justify-center relative md:w-1/2 w-full z-[-10]'>
                 <div className='aboutimg absolute opacity-0  bottom-0 bg-transparent border-[4.5px] border-[#0ef] md:w-64 md:h-64 w-52 h-52 rounded-full flex justify-center items-center box shadow-[0_0_20px_8px_#0ef] '><img className='md:w-[254px] md:h-[254px] w-[204px] h-[204px] rounded-full' src='./images/about.jpg' /></div>
             </div>}
 
