@@ -9,14 +9,13 @@ const Projects = () => {
   const desc = [" Developed PassLocker a full-stack web application designed to provide users with a safe and efficient platform to store their login credentials and other sensitive data.", ' Developed the Intelligent Sewage Detection and Monitoring System, an Iot hardware backed-up by an Android App which provides continuous updates on sewage levels, flow rates, and potential blockages.  ', " Developed an automated attendance system that records the  attendance through facial recognition by leveraging advanced machine learning algorithms and facial recognition technology."]
   const tech_stack = ["JavaScript, MongoDB, ExpressJS, NodeJS, ReactJS, Tailwind", "IoT, Android, Java, XML", " HTML, CSS, JS, ML, TensorFlow"]
   const github_repo = ["PassLocker-MERN-Application", "PassLocker-MERN-Application", "PassLocker-MERN-Application"]
-  const proj_img = ["./images/about.jpg", "./images/isdms.jpeg", "./images/attendance.jpeg"]
+  const proj_img = ["./images/passlocker.JPG", "./images/isdms.jpeg", "./images/attendance.jpeg"]
   const proj_ref = useRef()
 
   const changeForward = () => {
 
     if (count < title.length - 1) {
       setCount(count + 1)
-      console.log(count);
     }
     else {
       setCount(0)
@@ -41,7 +40,7 @@ const Projects = () => {
           </div>
         </div>}
 
-        <div className=' md:hidden w-full flex flex-col gap-5 justify-center items-center' >{ inView && <> <div><img className='project-img opacity-0 h-[25vh] w-[77vw]' ref={proj_ref} src={'http://localhost:5173/' + proj_img[count]} /></div>
+        <div className=' md:hidden w-full flex flex-col gap-5 justify-center items-center' >{ inView && <> <div><img className='project-img opacity-0 h-[25vh] w-[77vw]' ref={proj_ref} src={proj_img[count]} /></div>
           <div className=' project-img opacity-0 flex justify-center items-center gap-6'>
             <div onClick={changeBackward} className=' bg-[#0ef]  p-[2px]'><img className=' w-6 h-6  ' src="./left-arrow.svg " /> </div>
             <div onClick={changeForward} className=' bg-[#0ef]  p-[2px]'><img className='w-6 h-6 ' src="./right-arrow.svg " /> </div>
