@@ -9,10 +9,10 @@ import { useInView } from "react-intersection-observer";
 
 
 function App() {
-  const { ref, inView } = useInView();
+
   return (
     <>
-    
+
     <Navbar />
     <Home  />
     <About />

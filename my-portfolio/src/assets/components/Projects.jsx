@@ -3,7 +3,11 @@ import { InView, useInView } from 'react-intersection-observer'
 import { VscGithub } from "react-icons/vsc";
 
 const Projects = () => {
-  const { ref, inView } = useInView();
+  const { ref, inView } = useInView({
+    threshold: 0,
+    triggerOnce: true
+  });
+  
   const [count, setCount] = useState(0)
   const title = ["PassLocker", "Intelligent Sewage Detection and Monitoring System", "Attendance System Using Face Recognition"]
   const desc = [" Developed PassLocker a full-stack web application designed to provide users with a safe and efficient platform to store their login credentials and other sensitive data.", ' Developed the Intelligent Sewage Detection and Monitoring System, an Iot hardware backed-up by an Android App which provides continuous updates on sewage levels, flow rates, and potential blockages.  ', " Developed an automated attendance system that records the  attendance through facial recognition by leveraging advanced machine learning algorithms and facial recognition technology."]

@@ -9,7 +9,10 @@ import { InView, useInView } from "react-intersection-observer";
 
 const Home = () => {
 
-  const { ref, inView } = useInView();
+  const { ref, inView } = useInView({
+    threshold: 0,
+    triggerOnce: true
+  });
 
   const [text] = useTypewriter({
     words: ['Software Engineer', 'Full Stack Developer', 'Problem Solver'],

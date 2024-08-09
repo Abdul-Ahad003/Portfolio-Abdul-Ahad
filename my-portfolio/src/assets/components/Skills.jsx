@@ -2,7 +2,10 @@ import React, { useState, useRef } from 'react'
 import { InView, useInView } from "react-intersection-observer";
 
 const Skills = () => {
-    const { ref, inView } = useInView();
+    const { ref, inView } = useInView({
+        threshold: 0,
+        triggerOnce: true
+      });
 
     return (
         <section ref={ref} name='skills' className=' min-h-screen md:px-32 md:py-[48px] py-10 pb-8'>

@@ -4,7 +4,10 @@ import Swal from 'sweetalert2'
 
 const Contact = () => {
 
-  const { ref, inView } = useInView();
+  const { ref, inView } = useInView({
+    threshold: 0,
+    triggerOnce: true
+  });
 
   const handleSubmit = async (event) => {
     event.preventDefault();
