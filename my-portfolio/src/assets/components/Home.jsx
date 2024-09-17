@@ -43,7 +43,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className='md:py-0 py-[4px]'>{inView && <a href="./Resume_Abdul-Ahad.pdf" download="Resume_Abdul-Ahad.pdf"><button  className=' hover:shadow-[0_0_15px_2px_#0ef] resume opacity-0  bg-[#0ef] px-5 font-bold py-2.5 rounded-full md:text-[16px] text-[18px] '> Resume</button></a>}</div>
+      <div className='md:py-0 py-[4px]'>{inView && <a href="./Resume_Abdul_Ahad003.pdf" download="Resume_Abdul-Ahad.pdf"><button  className=' hover:shadow-[0_0_15px_2px_#0ef] resume opacity-0  bg-[#0ef] px-5 font-bold py-2.5 rounded-full md:text-[16px] text-[18px] '> Resume</button></a>}</div>
 
     </section>
   )
