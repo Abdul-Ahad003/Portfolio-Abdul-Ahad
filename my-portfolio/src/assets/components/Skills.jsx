@@ -51,11 +51,11 @@ const Skills = () => {
                         <div className='skillcard-contianer flex justify-center relative items-center bg-black rounded-3xl md:w-[145px] md:h-[145px] w-[125px] h-[125px] border-[2px] border-[#eab308] shadow-[0_0_13px_2px_#eab308]'>
                             <div className=' skillcard absolute '><img className=' md:w-[98px]  w-[80px]  bg-yellow-500 rounded-full' src='../express-original.svg' /></div>
                         </div>
-                        <div className='skillcard-contianer flex justify-center relative items-center bg-black rounded-3xl md:w-[145px] md:h-[145px] w-[125px] h-[125px] border-[2px] border-[#842791] shadow-[0_0_13px_2px_#842791]'>
-                            <div className=' skillcard absolute '><img className=' md:w-[100px] w-[80px]' src='../github-icon.svg' /></div>
+                        <div className='skillcard-contianer flex justify-center relative items-center bg-black rounded-3xl md:w-[145px] md:h-[145px] w-[125px] h-[125px] border-[2px] border-[#764abc] shadow-[0_0_13px_2px_#764abc]'>
+                            <div className=' skillcard absolute '><img className=' md:w-[100px] w-[80px]' src='../redux-original.svg' /></div>
                         </div>
-                        <div className='skillcard-contianer flex justify-center relative items-center bg-black rounded-3xl md:w-[145px] md:h-[145px] w-[125px] h-[125px] border-[2px] border-[#ff7262] shadow-[0_0_13px_2px_#ff7262]'>
-                            <div className=' skillcard absolute '><img className=' figma-logo md:w-[68px] w-[48px]' src='../figma-icon.svg' /></div>
+                        <div className='skillcard-contianer flex justify-center relative items-center  rounded-3xl md:w-[145px] md:h-[145px] w-[125px] h-[125px] border-[2px] border-[#ffffff] shadow-[0_0_13px_2px_#ffffff]'>
+                            <div className=' skillcard absolute bg-transparent '><img className='  figma-logo md:w-[100px] w-[80px]' src='../github-mark.svg' /></div>
                         </div>
 
                     </div>
