@@ -15,7 +15,7 @@ const Projects = () => {
   const tech_stack = ["JavaScript, MongoDB, ExpressJS, NodeJS, ReactJS, Tailwind", "JavaScript, MongoDB, ExpressJS, NodeJS, ReactJS, API, Tailwind", "JavaScript, ReactJS, Redux, API, Tailwind", "JavaScript, MongoDB, Next.js, Tailwind", "IoT, Android, Java, XML", " HTML, CSS, JS, ML, TensorFlow"]
   const github_repo = ["Docs-Flow---Document-manager","Veron-AI-Assistant","Moviebee","PassLocker-MERN-Application", "", ""]
   const demo_link = ["https://docsflow.netlify.app/","https://veron-ai.netlify.app/","https://moviesbinge.netlify.app/","https://credvault-chi.vercel.app/", "https://github.com/Abdul-Ahad003","https://github.com/Abdul-Ahad003"]
-  const proj_img = ["./images/docsflow.JPG","./images/veronai.JPG","./images/moviebinge.JPG","./images/passlocker.JPG", "./images/isdms.jpeg", "./images/attendance.jpeg"]
+  const proj_img = ["./images/docsflow.JPG","./images/veronai.JPG","./images/moviebinge.JPG","./images/credvault.JPG", "./images/isdms.jpeg", "./images/attendance.jpeg"]
   
   const proj_ref = useRef()
 
