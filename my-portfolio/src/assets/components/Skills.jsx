@@ -55,7 +55,7 @@ const Skills = () => {
                             <div className=' skillcard absolute '><img className=' md:w-[100px] w-[80px]' src='../redux-original.svg' /></div>
                         </div>
                         <div className='skillcard-contianer flex justify-center relative items-center  rounded-3xl md:w-[145px] md:h-[145px] w-[125px] h-[125px] border-[2px] border-[#ffffff] shadow-[0_0_13px_2px_#ffffff]'>
-                            <div className=' skillcard absolute bg-transparent '><img className='  figma-logo md:w-[100px] w-[80px]' src='../github-mark.svg' /></div>
+                            <div className=' skillcard absolute bg-transparent '><img className='  figma-logo md:w-[100px] w-[80px]' src='../nextjs-original.svg' /></div>
                         </div>
 
                     </div>
